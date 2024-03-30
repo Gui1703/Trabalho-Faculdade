@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Fale Comigo</title>
+    <!--    Link da rota do css-->
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+
+<!--Links do header do site-->
+<header>
+    <nav>
+        <a class="header-link" href="index.html">Home</a>
+        <a class="header-link" href="about.html">Sobre Mim</a>
+        <a class="header-link" href="education.html">Formação</a>
+        <a class="header-link" href="portfolio.html">Portifolio</a>
+        <a class="header-link" href="contact-me.html">Fale Comigo</a>
+    </nav>
+</header>
+
+<!--Conteúdo Principal-->
+<main class="main-form">
+    <section class="form">
+        <div>
+            <h1 class="text" style="text-align: center">Deixe aqui seu Feedback!</h1>
+            <br/>
+
+            <!--            Formulário de Feedback-->
+            <form action="" method="POST">
+                <label for="name">Nome:</label>
+                <input id="name" maxlength="30" placeholder="Digite seu nome" required size="30" type="text">
+
+                <label for="email">Email:</label>
+                <input id="email" maxlength="30" placeholder="Digite seu email" required size="30" type="email">
+
+                <label for="message">Comentários:</label>
+                <textarea cols="50" id="message" placeholder="Digite um comentário" required rows="4"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+        </div>
+    </section>
+
+    <!--    Minhas redes sociais-->
+    <div class="container-links">
+        <img alt="Imagem chat" src="./assets/images/chat.png" title="Copied Google Images"/>
+        <h2 class="link-title">Ou acesse minhas redes:</h2>
+        <div class="links">
+            <a href="https://www.instagram.com/" target="_blank">
+                <img alt="logo instagram" class="img-links" src="./assets/images/instagram.png">
+            </a>
+            <a href="https://github.com/Gui1703" target="_blank">
+                <img alt="logo Github" class="img-links" src="./assets/images/github.png">
+            </a>
+            <a href="https://www.linkedin.com/in/guilherme-raposo-3a2130190/" target="_blank">
+                <img alt="logo Linkedin" class="img-links" src="./assets/images/linkedin.png">
+            </a>
+        </div>
+    </div>
+
+</main>
+</body>
+
+<script src="./script.js"></script>
+</html>
